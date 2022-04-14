@@ -110,7 +110,7 @@ section{
   
   align-items: center;
   justify-content: center;
-  color: wheat;
+  color: white;
   display: flex;
   padding-top: 25px;
   
@@ -145,20 +145,26 @@ section{
   .under_c h2{
     font-size: 24px;
   }
+  .footer{
+    display: grid;
+  }
   .footer-icons{
     padding: 0;
+    padding-top: 10px;
   }
   .footer-icons a{
     
     font-size: .9em;
     margin: 0 0.5rem;
+    
   }
   .footer h5{
-    
+    position: relative;
+    left:17%;
     align-items: center;
     padding-left: 10%;
     padding-top: 5px;
-    display: none;
+    font-size: 13px;
   }
   section{
     background-image: url(./backg-2.jpg);
