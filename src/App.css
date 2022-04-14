@@ -162,6 +162,6 @@ section{
   }
   section{
     background-image: url(./backg-2.jpg);
-    
+    top: -100px;
   }
 }

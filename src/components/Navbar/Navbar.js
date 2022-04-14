@@ -14,10 +14,10 @@ export default function Navbar(){
             <nav>
                 
                 <div className="nav-header">
-                    <div >
-                        <h4>The Minimalist Architects</h4>
+                    
+                    <h4>THE MINIMALIST ARCHITECTS</h4>
                         
-                    </div>
+                    
                     
                     <div>
                         <ul className="social-icons">
