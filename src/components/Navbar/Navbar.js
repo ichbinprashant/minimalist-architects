@@ -15,7 +15,7 @@ export default function Navbar(){
                 
                 <div className="nav-header">
                     <div >
-                        <h4>The Minimalistic Architects</h4>
+                        <h4>The Minimalist Architects</h4>
                         
                     </div>
                     
