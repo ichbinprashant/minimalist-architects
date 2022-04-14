@@ -1,6 +1,5 @@
-import React, {useState, useRef, useEffect} from 'react'
-import {  Nav, Container } from 'react-bootstrap';
-import{FaBars, FaTwitter, FaLinkedin, FaInstagram} from "react-icons/fa"
+import React from 'react'
+import{ FaTwitter, FaLinkedin, FaInstagram} from "react-icons/fa"
 import './Navbar.css'
 
 export default function Navbar(){
