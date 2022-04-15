@@ -9,8 +9,10 @@ export default function Navbar(){
     return(
         <div>
             
-
-            <nav>
+            <div >
+                <h1 className='not-nav'>THE MINIMALIST ARCHITECTS</h1>
+            </div>
+            {/* <nav>
                 
                 <div className="nav-header">
                     
@@ -33,7 +35,7 @@ export default function Navbar(){
                     </div>
                     
                 </div>
-            </nav>
+            </nav> */}
         </div>
     )
 }

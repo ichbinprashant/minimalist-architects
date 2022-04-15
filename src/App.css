@@ -60,13 +60,13 @@ a {
 
 
 .under_c{
-  
+  font-family: 'Grape Nuts', cursive;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
  
   color: white;
 }
@@ -88,12 +88,13 @@ a {
   
 }
 
-.under_c :hover{
+.under_c a:hover{
   padding: 11.5px;
   color: rgb(197, 213, 228);
 }
 section{
-  background-image: url(./backg-1.jpg);
+  background: rgb(43, 44, 45);
+  background: radial-gradient(circle, rgb(60, 62, 62) 0%, rgb(25, 24, 24) 100%);
   filter: blur(8px);
   -webkit-filter: blur(8px);
   background-size: cover;
@@ -108,7 +109,7 @@ section{
   position: absolute;
   flex-shrink: 0;
   bottom: 0%;
-  left: 50%;
+  left: 49%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -119,19 +120,19 @@ section{
   display: flex;
   padding-top: 25px;
   
+  
 }
-.footer h5{
-  size: 40px;
+
+.footer-col h5{
+  font-size: 17px;
   align-items: center;
   margin-top: -17px;
 }
+
 .footer-icons{
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  
-  
   
 }
 .footer-icons a{
@@ -146,9 +147,21 @@ section{
   border-color: white;
 }
 
+.location{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  padding-top: 10px;
+  letter-spacing: 0.1rem;
+  font-family: monospace;
+  
+ 
+}
+
 @media screen and (max-width: 800px) {
   .under_c h2{
-    font-size: 24px;
+    font-size: 22px;
   }
   .footer{
     display: grid;
@@ -159,7 +172,7 @@ section{
   }
   .footer-icons a{
     
-    font-size: .9em;
+    font-size: .7em;
     margin: 0 0.5rem;
     
   }
@@ -171,8 +184,11 @@ section{
     padding-top: 5px;
     font-size: 13px;
   }
-  section{
+  .location{
+    font-size: 11px;
+  }
+  /* section{
     background-image: url(./backg-2.jpg);
     top: -100px;
-  }
+  } */
 }

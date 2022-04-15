@@ -1,11 +1,16 @@
 import React from "react";
-import{ FaTwitter, FaLinkedin, FaInstagram, FaFacebook} from "react-icons/fa"
+import{ FaTwitter, FaLinkedin, FaInstagram, FaFacebook, FaEnvelope, FaMapMarkerAlt} from "react-icons/fa"
 export default function Footer(){
     return(
         <div className="footer">
-            <h5 >Follow us on : </h5>
-            <div >
+
+            
+            <div className="footer-col" >
+                {/* <h5 >Follow us</h5> */}
                 <ul className="footer-icons">
+                    <li  className='email'>
+                        <a href="mailto:someone@yoursite.com"><FaEnvelope /></a>
+                    </li>
                     <li className="twitter">
                         <a href="https://www.twitter.com"><FaTwitter /></a>
                     </li >
@@ -19,7 +24,9 @@ export default function Footer(){
                         <a href="https://www.facebook.com"><FaFacebook /></a>
                     </li>
                 </ul>
+                <h6 className="location"><FaMapMarkerAlt />&emsp;Namchi, Sikkim</h6>
             </div>
+            
         </div>
     )
 }
