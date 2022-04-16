@@ -21,7 +21,7 @@ export default function Footer(){
                         <a href="https://www.linkedin.com"><FaLinkedin /></a>
                     </li>
                     <li className="facebook">
-                        <a href="https://www.facebook.com"><FaFacebook /></a>
+                        <a href="https://www.facebook.com/minimalistarchitects"><FaFacebook /></a>
                     </li>
                 </ul>
                 <h6 className="location"><FaMapMarkerAlt />&emsp;Namchi, Sikkim</h6>
