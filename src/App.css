@@ -60,18 +60,19 @@ a {
 
 
 .under_c{
-  font-family: 'Grape Nuts', cursive;
+  font-family:'Times New Roman', Times, serif;
   position: absolute;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+  letter-spacing: 0.1rem;
   /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
- 
+  font-style: italic;
   color: white;
 }
 .under_c h2{
-  font-size: 30px;
+  font-size: 34px;
 }
 .under_c a{
   position: absolute;
@@ -84,7 +85,8 @@ a {
   border-radius: 9px;
   padding: 10px;
   text-decoration: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family:'Times New Roman', Times, serif;
+  
   
 }
 
@@ -105,7 +107,7 @@ section{
 }
 
 .footer{
-  font-family:monospace;
+  font-family:'Times New Roman', Times, serif;
   position: absolute;
   flex-shrink: 0;
   bottom: 0%;
@@ -134,17 +136,24 @@ section{
   align-items: center;
   justify-content: center;
   
+  
 }
 .footer-icons a{
   padding: 8px;
+  display: inline-block;
   margin: 0 0.9rem;
-  font-size: 1em;
+  font-size: 1.5em;
   color: white;
   transition: var(--transition);
   text-decoration: none;
-  border-radius: 50%;
+  /* border-radius: 50%;
   border: 2px solid;
-  border-color: white;
+  border-color: white; */
+  transition: transform .2s ease-in-out; 
+}
+.footer-icons a:hover{
+  transform: scale(1.2);
+  color:rgb(166, 243, 251)
 }
 
 .location{
@@ -153,8 +162,9 @@ section{
   justify-content: center;
   font-size: 12px;
   padding-top: 10px;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
   font-family: monospace;
+  padding-left: 24px;;
   
  
 }
@@ -165,6 +175,7 @@ section{
   }
   .footer{
     display: grid;
+    bottom: -3%;
   }
   .footer-icons{
     padding: 0;
@@ -172,8 +183,8 @@ section{
   }
   .footer-icons a{
     
-    font-size: .7em;
-    margin: 0 0.5rem;
+    font-size: 1em;
+    margin: 0 0.3rem;
     
   }
   .footer h5{
@@ -186,6 +197,7 @@ section{
   }
   .location{
     font-size: 11px;
+    padding-left: 0;
   }
   /* section{
     background-image: url(./backg-2.jpg);

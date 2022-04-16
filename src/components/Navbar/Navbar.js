@@ -10,7 +10,9 @@ export default function Navbar(){
         <div>
             
             <div >
-                <h1 className='not-nav'>THE MINIMALIST ARCHITECTS</h1>
+                <h1 className='not-nav-sm'>THE MINIMALIST</h1>
+                <h1 className='not-nav-sm-2'>ARCHITECTS</h1>
+                <h1 className='not-nav'>THE&nbsp;&nbsp;MINIMALIST&nbsp;&nbsp;ARCHITECTS</h1>
             </div>
             {/* <nav>
                 
